@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-  background-color: #557876;
+  background-color: #59918F;
   width: 100%;
   height: 6.875rem;
   display: -webkit-box;
@@ -154,11 +154,11 @@ body {
   font-weight: 43.75rem;
   font-size: 3.25rem;
   line-height: 4.3125rem;
-  color: #557876;
+  color: #59918F;
 }
 
 .block-age {
-  background-color: #557876;
+  background-color: #59918F;
   height: 23.75rem;
   width: 100%;
   border-radius: 2.1875rem;
@@ -184,7 +184,7 @@ body {
   font-weight: 43.75rem;
   font-size: 3.25rem;
   line-height: 4.3125rem;
-  color: #557876;
+  color: #59918F;
   margin-bottom: 1.25rem;
 }
 
@@ -226,14 +226,14 @@ body {
   font-weight: 43.75rem;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  color: #557876;
+  color: #59918F;
 }
 
 .video {
   height: 8.75rem;
   border-radius: 15px;
   width: 15.625rem;
-  background-color: #557876;
+  background-color: #59918F;
 }
 
 @media (max-width: 75rem) {
