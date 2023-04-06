@@ -247,16 +247,6 @@ body {
 @media (max-width: 33.125rem) {
   html {
     font-size: 18px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .container {
     width: 100%;
@@ -264,6 +254,10 @@ body {
   .icons {
     width: 5rem;
     height: 5.3125rem;
+  }
+  .top {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .top-text {
     display: none;
@@ -281,7 +275,7 @@ body {
             flex-direction: column;
   }
   .prev-right {
-    width: 18.75rem;
+    width: 20.625rem;
   }
   .videos {
     -webkit-box-orient: vertical;
