@@ -1,0 +1,80 @@
+@import"mix.scss";
+@import"var.scss";
+@include desktop {
+    html {
+        font-size: 13px;
+    }
+}
+
+@include laptop {
+    html {
+        font-size: 10px;
+    }
+}
+
+@include tablet {
+    html {
+        font-size: 7px;
+    }
+}
+
+@include tablet-mini {
+    html {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .icons {
+        width: rem(80);
+        height: rem(85);
+    }
+    .top {
+        &-text {
+            display: none;
+            &-mini {
+                display: block;
+            }
+        }
+    }
+    .prev {
+        display: flex;
+        flex-direction: column;
+        &-right {
+            width: rem(330);
+        }
+    }
+    .block-age {}
+    .videos {
+        flex-direction: column;
+    }
+    .cong {
+        &-title {
+            font-size: 49px;
+            text-align: center;
+        }
+    }
+}
+
+@include mobile {
+    html {
+        font-size: 16px;
+    }
+    .prev {
+        &-right {}
+    }
+    .cong {
+        &-title {
+            font-size: 45px;
+        }
+    }
+}
+
+@include mobile-mini {
+    html {
+        font-size: 14px;
+    }
+}
