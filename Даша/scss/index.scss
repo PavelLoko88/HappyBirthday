@@ -6,7 +6,12 @@
     @return $remValue;
 }
 
-html {}
+html {
+    background-image: url(../img/akva.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 * {
     padding: 0;
@@ -30,7 +35,7 @@ body {
     background-color: $blue;
     width: 100%;
     height: rem(110);
-    @include flex(center, flex-start)
+    @include flex(center, center)
 }
 
 .top {
@@ -40,7 +45,7 @@ body {
         @include fonts(700, 52, 69, $white);
         &-mini {
             display: none;
-            @include fonts(700, 52, 69, $white);
+            @include fonts(700, 30, 60, $white);
         }
     }
 }
