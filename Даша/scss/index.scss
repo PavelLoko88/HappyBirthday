@@ -45,7 +45,7 @@ body {
         @include fonts(700, 52, 69, $white);
         &-mini {
             display: none;
-            @include fonts(700, 30, 60, $white);
+            @include fonts(700, 24, 58, $white);
         }
     }
 }
