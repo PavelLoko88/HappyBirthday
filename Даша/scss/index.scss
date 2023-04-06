@@ -16,7 +16,7 @@ html {}
 }
 
 body {
-    @include flex(flex-start, center) {
+    @include flex(center, center) {
         flex-direction: column;
     }
 }
@@ -36,14 +36,18 @@ body {
 .top {
     @include flex(space-between, center);
     &-text {
+        display: block;
         @include fonts(700, 52, 69, $white);
+        &-mini {
+            display: none;
+            @include fonts(700, 52, 69, $white);
+        }
     }
 }
 
 .icon {
     &-left {
         @include flex(center, center);
-        height: rem(90);
     }
     &-center {
         @include flex(center, center)
@@ -54,6 +58,7 @@ body {
     &s {
         margin-top: rem(5);
         width: rem(95);
+        height: rem(100);
     }
 }
 
@@ -117,9 +122,10 @@ body {
 }
 
 .video {
-    height: rem(150);
+    height: rem(140);
     border-radius: 15px;
     width: rem(250);
+    background-color: $blue;
 }
 
 @import "media.scss";
