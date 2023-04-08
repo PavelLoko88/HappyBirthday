@@ -6,6 +6,12 @@
     @return $remValue;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: rem(15);
+}
+
 html {
     background-image: url(../img/akva.jpg);
     background-size: 100% 100%;
@@ -137,7 +143,7 @@ body {
 
 .video {
     height: rem(140);
-    border-radius: 15px;
+    border-radius: rem(15);
     width: rem(250);
     background-color: $blue;
 }
